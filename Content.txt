@@ -1,0 +1,49 @@
+Adepts/Physicians:
+If you want total solid damage while giving offensive debuffs to your teammates, go Adept. If you also want solid damage while multitasking to heal, cure, and support your teammates, go Physician.
+
+
+Reaper/Raven:
+
+reapers- sustained dmg
+
+ravens-burst damage, mid range, can get out of aggro
+
+
+
+
+Gear Master/Shooting Star:
+
+GM-having your own small army through turrets, robo ducks, and alfredo
+
+
+
+
+Gladiator/Lunar Knight:
+
+Glad- up close hack and slash combos with high mobile
+
+
+
+
+
+Saint/Inquis:
+
+Saint-the most support-y class out of all dn supports; healing, high dmg and def buffs, cleanses and movespeed buffs, aoe light dmg
+
+Barbarian\Destroyer:
+
+Bar-shorter range, slightly higher dps due to Bone Crash, but can be difficult to land at times
+
+Des-medium to long range, slightly less damage but tankier, more disruptive with aoe, and small healing
+
+mainly depends on how you utilize their skills, but bar probably clears pve better than the disruptive des which is probably more effective in pvp
+
+Hunter, Monk, Warlock
+
+
+
+Support, tank, dps, healer
+
+by element, by attribute (debuff, raw damage, single target, aoe, buffs, healing, cc, burst, high dps, medium dps, taunt) 
+
+dnss.herokuapp.com

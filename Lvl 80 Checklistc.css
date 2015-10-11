@@ -1,0 +1,95 @@
+
+
+body {
+		min-width: 1px;
+		width: 90%;
+		height: 90%;
+   	 	background-color: black;
+    		background-image: url('dn.jpg'); 
+		background-attachment: fixed; 
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+}
+
+@font-face {
+	font-family: HandelGothic;
+	src: local('Fonts/HandelGothic');
+}
+
+@font-face {
+	font-family: button-font;
+	src: url('Fonts/button-font.ttf');
+}
+
+@font-face {
+    font-family: DragonFont;
+    src: url('Fonts/pfeffermediaeval-webfont.ttf');
+}
+
+#title {
+    color: white;
+    font-family: DragonFont;
+    font-size: 60px;
+    text-align: center;
+		margin-left: 150px;
+    margin-top: -175px;
+    text-decoration: none;
+}
+
+#blue {
+	background: rgba(0, 0, 255, .4);
+}
+
+.chardiv {
+	height: 50px;
+	width: 33%; 
+	border: #CCC outset 5px;
+	background-color: #A8A8A8;
+	font-size: 49px;
+	text-decoration: none;
+	margin: 7% 40%;
+
+}
+
+.chardiv:active {
+	border: #CCC inset 5px;
+}
+
+.chardiv:hover {
+	color: red;
+}
+
+
+.titles {
+	font-family: HandelGothic, Merriweather;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#officialnotes {
+	margin-top: 8%;
+}
+
+#rundown {
+	margin-top: 10%;
+	color: white;
+	font-size: 45px;
+}
+
+
+#bullnotes {
+
+	color:white;
+	font-family:HandelGothic, Merriweather;
+	line-height: 2em;
+	font-size: 18px;
+
+}
+
+#notestitle {
+	padding: 0em 2dm;
+	color: white;
+	font-family: Oxygen;
+	line-height: 4em;
+	font-size: 30px;
+}

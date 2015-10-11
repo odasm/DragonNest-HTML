@@ -1,0 +1,791 @@
+
+
+body {
+		min-width: 1px;
+		width: 90%;
+		height: 90%;
+   	 	background-color: black;
+    		background-image: url('dn.jpg'); 
+		background-attachment: fixed; 
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+}
+
+#Bulldiv {
+		border: 4px outset azure;
+		margin-left: 7%;
+		background-color: blue;
+		opacity: .6;
+}
+
+
+
+#bulletin {
+		padding-left: 5em;
+		color: white;
+		font-family: HandelGothic, Merriweather;
+		font-size: 50px;
+		text-align: center;
+		margin-left: -12%;
+		margin-bottom: -1%; 
+		margin-top: 1.5%;
+}
+
+#bullnotes {
+	padding: 0em 2em;
+	color:white;
+	font-family:HandelGothic, Merriweather;
+	line-height: 2em;
+	font-size: 18px;
+	text-align: center;
+}
+
+#res {
+	color: white;
+	margin-left: 6.8%;
+	font-size: 45px;
+	padding-top: 3%;
+	padding-bottom: 1%;
+}
+
+#intro{
+	padding-left: 5em;
+	color:white;
+	font-family:HandelGothic, Merriweather;
+	line-height: 2em;
+	font-size: 25px;
+	text-align: center;
+}
+.chardiv:hover {
+	color: red;
+}
+
+.newsdiv:hover {
+	color: red;
+}
+
+.contdiv:hover {
+	color: red;
+}
+
+@font-face {
+	font-family: HandelGothic;
+	src: local('HandelGothic');
+}
+
+@font-face {
+	font-family: button-font;
+	src: url('button-font.ttf');
+}
+
+@font-face {
+    font-family: DragonFont;
+    src: url('pfeffermediaeval-webfont.ttf');
+}
+
+#title {
+    color: white;
+    font-family: DragonFont;
+    font-size: 60px;
+    text-align: center;
+		margin-left: 150px;
+    margin-top: -175px;
+    text-decoration: none;
+}
+
+#quick {
+	text-align: center;
+	margin-top: 5%;
+	margin-left: 10%;
+	color: white;
+}
+
+
+
+
+
+
+table {
+	border: 2px ridge white;
+	border-spacing: 0.1rem;
+	margin-left: 5%;
+}
+
+
+
+
+
+.classicons {
+	text-align: center;
+}
+
+.name {
+	color: white;
+	margin: -5px 2px 5px 2px;
+
+}
+
+td {
+	width: 100px;
+	height: 90px;
+	padding: 0px;
+	border: 2px ridge white;	
+}
+
+.rescale {
+	width: 42%;
+}
+
+.rescale2 {
+	width: 55%;
+}
+
+.rescale3 {
+	width: 20%;
+}
+
+.rescale4 {
+	width: 49%;
+}
+
+
+.spectitle {
+	color: white;
+}
+
+
+.titles {
+	font-family: HandelGothic, Merriweather;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#class_link {
+	text-decoration: none;
+	font-size: 50px;
+
+}
+
+
+
+.chardiv {
+	height: 50px;
+	width: 310px;
+	margin-left: 115px; 
+	border: #CCC outset 5px;
+	background-color: #A8A8A8;
+	font-size: 49px;
+	text-decoration: none;
+
+}
+
+.chardiv:active {
+	border: #CCC inset 5px;
+}
+
+.newsdiv:active {
+	border: #CCC inset 5px;
+}
+
+.contdiv:active{
+	border: #CCC inset 5px;
+}
+
+
+.newsdiv {
+	height: 50px;
+	width: 310px;
+	margin-left: 45%;
+	font-size: 49px;
+	border: #CCC outset 5px;
+	background-color: #A8A8A8;
+}
+
+.contdiv {
+	height: 50px;
+	width: 310px;
+	margin-left: 82%;
+	font-size: 49px;
+	border: #CCC outset 5px;
+	background-color: #A8A8A8;
+}
+
+
+#update{
+	color:white;
+	float: right;
+}
+
+#warriorrescale {
+	width: 17%;
+	content:url('Warrior_Large_Icon.png');
+}
+
+#warriorrescale:hover {
+	margin-top: .4%;
+	width: 13%;
+	content: url('Warrior_Icon.png');
+}
+
+#arch {
+	margin-right: 2%;
+	content: url('Archer_Large_Icon.png');
+}
+
+#arch:hover {
+	width: 24%;
+	padding-left: 2%;
+	content: url('Archer_Icon.png');
+}
+
+#sorc {
+	width: 26.5%;
+	content: url('Sorceress_Large_Icon.png');
+}
+
+#sorc:hover {
+	width: 28%;
+	margin-right: 1%;
+	margin-top: 1%;
+	content: url('Sorceress_Icon.png');
+}
+
+#cler {
+	width: 27.5%;
+	content: url('Cleric_Large_Icon.png');
+}
+
+#cler:hover {
+	content: url('Cleric_Icon.png');
+	width: 22%;
+}
+
+#tink {
+	width: 25%;
+	content: url('Tinkerer_Large_Icon.png');
+}
+
+#tink:hover {
+	content: url('Tinkerer_Icon.png');
+}
+
+#kali {
+	content: url('Kali_Large_Icon.png');
+	width: 27%;
+}
+
+#kali:hover {
+	margin-top: -.5%;
+	content: url('Kali_Icon.png');
+	width: 30%;
+}
+
+#assa {
+	width:29%;
+	content: url('Assassin_Large_Icon.png');
+}
+
+#assa:hover {
+	content: url('Assassin_Icon.png');
+}
+
+#lenc {
+	width: 55%;
+	content: url('Lencea_Large_Icon.png');
+}
+
+#lenc:hover {
+	margin-left: 1%;
+	width: 60%;
+	content: url('Lencea_Icon.png');
+}
+
+#swor {
+	width: 50%;
+	content: url('Swordmaster_Large_Icon.png');
+}
+
+#swor:hover {
+	content: url('Swordmaster_Icon.png');
+}
+
+#merc {
+	width: 50%;
+	content: url('Mercenary_Large_Icon.png');
+}
+
+#merc:hover {
+	padding-top: 1%;
+	width: 52%;
+	content: url('Mercenary_Icon.png');
+}
+
+#aven {
+	width: 70%;
+}
+
+#shar {
+	width: 42%;
+	content: url('Sharpshooter_Large_Icon.png');
+}
+
+#shar:hover {
+	width:48%;
+	content: url('Sharpshooter_Icon.png');
+}
+
+#acro {
+	width: 44%;
+	content: url('Acrobat_Large_Icon.png');
+}
+
+#acro:hover {
+	width: 48%;
+	content: url('Acrobat_Icon.png');
+}
+
+#myst {
+	width: 60%;
+	content: url('Mystic_Large_Icon.png');
+}
+
+#myst:hover {
+	padding-bottom: 1.5%;
+	width: 75%;
+	content: url('Mystic_Icon.png');
+}
+
+#elem {
+	content: url('Elementalist_Large_Icon.png');
+}
+
+#elem:hover {
+	width: 52%;
+	content:url('Elementalist_Icon.png');
+}
+
+#pala {
+	width: 52%;
+	content: url('Paladin_Large_Icon.png');
+}
+
+#pala:hover {
+	content: url('Paladin_Icon.png');
+}
+
+#prie {
+	width: 53%;
+	content: url('Priest_Large_Icon.png');
+}
+
+#prie:hover {
+	width: 56%;
+	content: url('Priest_Icon.png');
+}
+
+#engi {
+	width: 50%;
+	content: url('Engineer_Large_Icon.png');
+}
+
+#engi:hover {
+	content: url('Engineer_Icon.png');
+	width: 65%;
+}
+
+#alch {
+	width: 50%;
+	content: url('Alchemist_Large_Icon.png');
+}
+
+#alch:hover {
+	padding-bottom: 1.5%;
+	padding-left: .5%;
+	content: url('Alchemist_Icon.png');
+	width: 60%;
+}
+
+#scre {
+	width: 50%;
+	content: url('Screamer_Large_Icon.png');
+}
+
+#scre:hover {
+	padding-right: 1%;
+	content: url('Screamer_Icon.png');
+	width: 60%;
+}
+
+#danc {
+	width: 65%;
+	content: url('Dancer_Large_Icon.png');
+}
+
+#danc:hover {
+	content: url('Dancer_Icon.png');
+	width: 70%;
+}
+
+#shin {
+	width: 60%;
+	content: url('Shinobi_Large_Icon.png');
+}
+
+#shin:hover {
+	content: url('Shinobi_Icon.png');
+}
+
+#taoi {
+	width: 60%;
+	content: url('Taoist_Large_Icon.png');
+}
+
+#taoi:hover {
+	content: url('Taoist_Icon.png');
+}
+
+#lanc {
+	width: 60%;
+	content: url('Lancer_Large_Icon.png');
+}
+
+#lanc:hover {
+	width: 68%;
+	content: url('Lancer_Icon.png');
+}
+
+#glad {
+	content: url('Gladiator_Large_Icon.png');
+}
+
+#glad:hover {
+	width: 48%;
+	padding-left: 1%;
+	content: url('Gladiator_Icon.png');
+}
+
+#barb {
+	width: 50%;
+	content: url('Barbarian_Large_Icon.png');
+}
+
+#barb:hover {
+	width: 55%;
+	content: url('Barbarian_Icon.png');
+}
+
+#dark {
+	width: 70%;
+}
+
+#dark:hover {
+	width: 75%;
+}
+
+#ward {
+	content: url('Warden_Large_Icon.png');
+}
+
+#ward:hover {
+	width: 48%;
+	padding-top: -1%;
+	content: url('Warden_Icon.png');
+}
+
+#temp {
+	content: url('Tempest_Large_Icon.png');
+}
+
+#temp:hover {
+	width: 47%;
+	content: url('Tempest_Icon.png');
+}
+
+#warm {
+	width: 60%;
+	content: url('War_Mage_Large_Icon.png');
+}
+
+#warm:hover {
+	padding-top: 1%;
+	width: 75%;
+	content: url('War_Mage_Icon.png');
+}
+
+#pyro {
+	content: url('Pyromancer_Large_Icon.png');
+}
+
+#pyro:hover {
+	width: 51%;
+	content: url('Pyromancer_Icon.png');
+}
+
+#crus {
+	width: 57%;
+	content: url('Crusader_Large_Icon.png');
+}
+
+#crus:hover {
+	width: 62%;
+	content: url('Crusader_Icon.png');
+}
+
+#inqu {
+	width: 52%;
+	content: url('Inquisitor_Large_Icon.png');
+}
+
+#inqu:hover {
+	width: 62%;
+	content: url('Inquisitor_Icon.png');
+}
+
+#gear {
+	width: 50%;
+	content: url('Gear_Master_Large_Icon.png');
+}
+
+#gear:hover {
+	width: 60%;
+	content: url('Gear_Master_Icon.png');
+}
+
+#adep {
+	width: 50%;
+	content: url('Adept_Large_Icon.png');
+}
+
+#adep:hover {
+	width: 60%;
+	content: url('Adept_Icon.png');
+}
+
+#darks {
+	width: 50%;
+	content: url('Dark_Summoner_Large_Icon.png');
+}
+
+#darks:hover {
+	width: 55%;
+	content: url('Dark_Summoner_Icon.png');
+}
+
+#blad {
+	width: 57%;
+	content: url('Blade_Dancer_Large_Icon.png');
+}
+
+#blad:hover {
+	width: 62%;
+	content: url('Blade_Dancer_Icon.png');
+}
+
+#rave {
+	width: 60%;
+	content: url('Raven_Large_Icon.png');
+}
+
+#rave:hover {
+	content: url('Raven_Icon.png');
+}
+
+#abys {
+	width: 60%;
+	content: url('Abyss_Walker_Large_Icon.png');
+}
+
+#abys:hover {
+	content: url('Abyss_Walker_Icon.png');
+}
+
+#drag {
+	width: 60%;
+	content: url('Dragoon_Large_Icon.png');
+}
+
+#drag:hover {
+	width: 70%;
+	content: url('Dragoon_Icon.png');
+}
+
+#luna {
+	content: url('Lunar_Knight_Large_Icon.png');
+}
+
+#luna:hover {
+	width: 47%;
+	content: url('Lunar_Knight_Icon.png');
+}
+
+#dest {
+	width: 50%;
+	content: url('Destroyer_Large_Icon.png');
+}
+
+#dest:hover {
+	width: 53%;
+	content: url('Destroyer_Icon.png');
+}
+
+#snip {
+	content: url('Sniper_Large_Icon.png');
+}
+
+#snip:hover {
+	width: 51%;
+	content: url('Sniper_Icon.png');
+}
+
+#wind {
+	content: url('Windwalker_Large_Icon.png');
+}
+
+#wind:hover {
+	width: 51%;
+	content: url('Windwalker_Icon.png');
+}
+
+#chao {
+	width: 55%;
+	content: url('Chaos_Mage_Large_Icon.png');
+}
+
+#chao:hover {
+	width: 70%;
+	content: url('Chaos_Mage_Icon.png');
+}
+
+#icew {
+	content: url('Ice_Witch_Large_Icon.png');
+}
+
+#icew:hover {
+	width: 52%;
+	content: url('Ice_Witch_Icon.png');
+}
+
+#guar {
+	width: 55%;
+	content: url('Guardian_Large_Icon.png');
+}
+
+#guar:hover {
+	width: 70%;
+	content: url('Guardian_Icon.png');
+}
+
+#sain {
+	width: 55%;
+	content: url('Saint_Large_Icon.png');
+}
+
+#sain:hover {
+	width: 65%;
+	content: url('Saint_Icon.png');
+}
+
+#shoo {
+	width: 55%;
+	content: url('Shooting_Star_Large_Icon.png');
+}
+
+#shoo:hover {
+	width: 65%;
+	content: url('Shooting_Star_Icon.png');
+}
+
+#phys {
+	width: 55%;
+	content: url('Physician_Large_Icon.png');
+}
+
+#phys:hover {
+	width: 60%;
+	content: url('Physician_Icon.png');
+}
+
+#soul {
+	width: 50%;
+	content: url('Soul_Eater_Large_Icon.png');
+}
+
+#soul:hover {
+	width: 55%;
+	content: url('Soul_Eater_Icon.png');
+}
+
+#spir {
+	width: 65%;
+	content: url('Spirit_Dancer_Large_Icon.png');
+}
+
+#spir:hover {
+	width: 75%;
+	content: url('Spirit_Dancer_Icon.png');
+}
+
+#reap {
+	width: 60%;
+	content: url('Reaper_Large_Icon.png');
+}
+
+#reap:hover {
+	content: url('Reaper_Icon.png');
+}
+
+#ligh {
+	width: 60%;
+	content: url('Light_Bringer_Large_Icon.png');
+}
+
+#ligh:hover {
+	content: url('Light_Bringer_Icon.png');
+}
+
+#valk {
+	width: 65%;
+	content: url('Valkyrie_Large_Icon.png');
+}
+
+#valk:hover {
+	width: 75%;
+	content: url('Valkyrie_Icon.png');
+}
+
+
+#mach {
+	width: 55%;
+	content: url('Machina_Icon.png');
+}
+
+#mach:hover {
+	width: 65%;
+}
+
+#patr {
+	width: 58%;
+	content: url('Patrona_Icon.png');
+}
+
+#patr:hover {
+	width: 68%;
+}
+
+#ruin {
+	width: 58%;
+	content: url('Ruina_Icon.png');
+}
+
+#ruin:hover {
+	width: 68%;
+}
+
+#defe {
+	width: 58%;
+	content: url('Defensio_Icon.png');
+}
+	
+#defe:hover {
+	width: 68%;
+}
