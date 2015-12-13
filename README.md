@@ -1,7 +1,6 @@
 # DragonNest-HTML
-HTML5/CSS coded site for the MMORPG Dragon Nest (the ins and outs of playing the game)
+HTML5/CSS summer project for the MMORPG Dragon Nest (the ins and outs of playing the game)
 
-This is a website I made for fun containing as much Dragon Nest content I am willing to research or have experience with. It's basically a wiki I created for the game with my own personal design and ideas; the original reason I made this site was to practice my HTML, but after a while I found it pretty fun to design the site and decided to devote more time into making it better. After getting an introduction from codecademy.com (nice site that teaches you some coding language basics) I figured the fastest way to really learn was to just try coding, and I ended deciding to do that with Dragon Nest, so this is my first ever website. And of course I asked my good friends Bladexer and Nuclearshock to help me out with some of the content due to them having more game time/experience overall than me. I find DragonNest to be pretty versatile in terms of gameplay while making use of the more fun elements of MMORPGS (don't get me wrong there's plenty of flaws), and it just so happened to be a game I was actively playing so I picked it over other games. Again, this was all made for fun/practice so critique is nice but remember we don't really know what we're doing; it's like a big experiment.
-Do note that most of the information/pictures on here are taken from the main site, the wiki, or various sites I have cited in the credits page (lmk if I missed something) and in some cases like the News, it will link directly to the source as they will have the most detail on the subject, but we may include a personal rundown.
+OPEN WITH index.html
 
-I hope to eventually complete all parts of the site and then push it towards having an actual domain.
+This is my very first HTML projected made in order to help me learn how to use HTML5/CSS. It includes backgrounds, buttons, links, mouseovers, custom fonts, pictures, and other basic features. I learned the basics with the help of codeacademy and then taught myself the rest online.
